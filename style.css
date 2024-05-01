@@ -22,6 +22,7 @@ font-family: "Inter", sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 
 }
 .nav-title{
@@ -47,6 +48,7 @@ font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 .offer{
   display: flex;
@@ -81,6 +83,7 @@ font-family: "Inter", sans-serif;
   align-content: center;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .party > img {
 
@@ -117,6 +120,7 @@ font-family: "Inter", sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .place-contain{
 
@@ -125,18 +129,19 @@ font-family: "Inter", sans-serif;
   align-items: center;
 
 }
-
-.place-contain > p{
+.place-text >p{
   font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 32px;
   color: #070211;
-
-  flex-direction: column;
+  display: flex;
   justify-content: center;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.place-contain > button {
+
+
+.place-contain> button {
   background-color: #FF0000;
   width: 167px;
   height: 56px;
@@ -147,10 +152,12 @@ font-family: "Inter", sans-serif;
   color: white;
   border-radius: 8px; 
   border-style: none;
+  margin-top: 30px;
 }
 
 .portfolio-main{
   width: 1320px;
+  margin-bottom: 20px;
 }
 
 
@@ -177,4 +184,56 @@ font-family: "Inter", sans-serif;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.newslatter{
+  width: 1320px;
+  height: 616px;
+  background-color: #FF000010;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+
+
+}
+.newslatter > h1{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #070211;
+}
+.newslatter > p{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #07021160; 
+}
+.subscribe{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+.subscribe > input{
+  width: 438px;
+  height: 72px;
+  border-style: none;
+  border-top-left-radius: 9999px;
+border-bottom-left-radius: 9999px;
+}
+.subscribe > button{
+  width: 210px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #FF0000;
+  border-style: none;
+  border-top-right-radius: 9999px;
+border-bottom-right-radius: 9999px;
 }
