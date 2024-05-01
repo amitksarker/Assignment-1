@@ -14,9 +14,17 @@ font-family: "Inter", sans-serif;
 .red-color{
   color: #FF0000;
 }
-/* .nav-main{
- display: flex;
-} */
+
+.nav-main{
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07021190;
+  background-image: url('./resources/Banner\ Image.png');
+}
+
 .nav{
   display: flex;
   flex-direction: column;
@@ -29,26 +37,23 @@ font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
   font-weight:normal;
   font-size: 32px;
-  color: black;
+  color: white;
   margin: 0% 0%;
 }
 .nav-title-p{
   font-family: "Merriweather", serif;
   font-weight: bold;
   font-size: 72px;
-  color: black;
+  color: white;
   margin: 0% 0%;
 }
-.nav-img{
-
-}
-
 
 .offer-main{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+
 }
 .offer{
   display: flex;
@@ -84,11 +89,11 @@ font-family: "Inter", sans-serif;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  width: 1320px;
+  height: 600px;
+  background-image: url('./resources/Vectorrr.png');
 }
-.party > img {
 
-
-}
 .party-container{
   display: flex;
   flex-direction: row;
@@ -107,9 +112,15 @@ font-family: "Inter", sans-serif;
   font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 18px;
-  color: #FFFFFF80;
+  color:white;
 }
 
+.party-content > h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color:white;
+}
 
 .place-main{
   width: 1320px;
@@ -323,5 +334,5 @@ border-left-width: 0.5px;
 margin-left: 40px;
 margin-right: 40px;
 margin-top: 20px;
-margin-bottom: 20px;
+margin-bottom: 20p;
 }
