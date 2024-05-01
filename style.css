@@ -2,8 +2,17 @@ font-family: "Merriweather", serif;
 font-family: "Inter", sans-serif;
 
 
-body{
- 
+.body{
+    width: 1320px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.red-color{
+  color: #FF0000;
 }
 /* .nav-main{
  display: flex;
@@ -65,4 +74,107 @@ body{
   color: black;
   
   margin:0 0;
+}
+.party{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.party > img {
+
+
+}
+.party-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.party-content > h1{
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+}
+
+.party-content > p {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF80;
+}
+
+
+.place-main{
+  width: 1320px;
+  height: 482px;
+  background-color: #FF000010;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.place-contain{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.place-contain > p{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #070211;
+
+  flex-direction: column;
+  justify-content: center;
+
+}
+.place-contain > button {
+  background-color: #FF0000;
+  width: 167px;
+  height: 56px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px; 
+  border-style: none;
+}
+
+.portfolio-main{
+  width: 1320px;
+}
+
+
+.portfolio-main > h3{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FF0000;
+}
+.portfolio-main > h1{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #070211;
+}
+.portfolio-main >p{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #07021160; 
+}
+.portfolio-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
